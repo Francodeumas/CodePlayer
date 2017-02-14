@@ -1,0 +1,26 @@
+body{
+	margin:0;
+}
+#filesView,#codeEditor,#result{
+	border-right:2px solid blue;
+}
+#filesView{
+	width:10%;
+	float:left;
+}
+#codeEditor{
+	width:45%;
+	float:left;
+}
+#result{
+	width:45%;
+	float:right;
+}
+button{
+	width:100%;
+	background:#fff;
+	border:none;
+	text-align: center;
+	cursor: pointer;
+	padding:5px 0px;
+}
